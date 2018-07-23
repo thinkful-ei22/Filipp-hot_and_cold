@@ -1,0 +1,37 @@
+input {
+  margin: 10px;
+  height: 55px;
+  width: 335px;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.guessButton {
+  background-color: #16163a;
+  font-size: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 335px;
+}
+
+.guessButton:hover {
+  background-color: #cc324b;
+}
+
+.userGuess {
+  padding-left: 10px;
+  width: 320px;
+  background-color: #16163a;
+}
+
+
+.userGuess::placeholder {
+  color: white;
+  font-size: 20px;
+
+}
+
